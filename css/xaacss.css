@@ -35,6 +35,9 @@ color: 	rgba(0,0,0,.9);
 footer {
 background: linear-gradient( rgb(207,181,59), transparent 95%), 
     linear-gradient(0deg, rgba(102,51,153,.7), white);
+margin-left: 0;
+margin-right: 0;
+width: 100%; 
 
 }
 
@@ -85,6 +88,9 @@ ll {
 .overlay{
   opacity: 0; 
 }
+.overlay h3, .overlay p {
+	color: rgba(207, 181, 59,1);
+}
 .overlay:hover{
   opacity: 1;
 }
@@ -94,19 +100,35 @@ ll {
   height: 300px; 
   width: 100%;
   border: 3px solid black; 
+  padding-right:20px; 
+  margin-bottom: 200px; 
+
 } 
 .item {
   flex-grow: 1;
 }
-#one:hover {
-  flex-grow: 2;
+.row {
+	width: 100%;
 }
-#two:hover {
-  flex-grow: 2;
+#one{
+	background: url("../img/Informational_img.png");
+	background-repeat: no-repeat; 
+	background-position: center; 
 }
-#three:hover {
-  flex-grow: 2;
+#two{
+	background: url("../img/cs cover.jpg");
+	background-repeat: no-repeat; 
+	background-position: center; 
 }
-#four:hover {
-  flex-grow: 2;
+#three{
+	background-color: white;
+	background: url("../img/performance cover.jpg");
+	background-repeat: no-repeat; 
+	background-position: center; 
+}
+#four{
+	background: url("../img/Awards cover.png");
+	background-repeat: no-repeat; 
+	background-position: center; 
+	
 }
